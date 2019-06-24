@@ -2,6 +2,6 @@
 const currentUser = "Chris"
 const welcomeMessage = "Welcome to Flatbook, " + currentUser + "!"
 
-const excitedWelcomeMessage = "WELCOME TO FLATBOOK, " + currentUser + "!"
+const excitedWelcomeMessage = "WELCOME TO FLATBOOK, " + currentUser.uppercase + "!"
 
 const shortGreeting = "Welcome, "  + currentUser.slice(0)
